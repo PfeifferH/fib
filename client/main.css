@@ -1,0 +1,23 @@
+.fib div, .fib {
+  box-sizing: border-box;
+  border-left: 0.5em solid #D8A03F;
+  margin-top: -0.5em;
+  border-top: 0.3090235em solid #D8A03F;
+  margin-right: -1px;
+  border-right: 1px solid #eee;
+  border-radius: 100% 0 0 0;
+  width: 1em;
+  height: 1em;
+  position: absolute;
+  right: -1em;
+  font-size: 0.6180469em;
+  transform: rotate(90deg);
+}
+
+.fib {
+  font-size: 600px;
+  position: relative;
+  right: 0;
+  margin-top: 0;
+  transform: rotate(0);
+}
