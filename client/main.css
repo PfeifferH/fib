@@ -31,9 +31,9 @@ body {
 
 .fib div, .fib {
   box-sizing: border-box;
-  border-left: 0.5em solid rgba(216,160,63, 0.5);
+  border-left: 0.5em solid  #ea80fc ;
   margin-top: -0.5em;
-  border-top: 0.3090235em solid rgba(216,160,63, 0.5);
+  border-top: 0.3090235em solid #ea80fc ;
   border-radius: 100% 0 0 0;
   width: 1em;
   height: 1em;
