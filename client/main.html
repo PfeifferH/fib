@@ -1,12 +1,32 @@
 <!DOCTYPE html>
 <html>
+
+<!-- Compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
 <head>
+    <title>Fibinize It!</title>
+    <link rel="shortcut icon" type="image/x-icon" href="GoldenSpiralLogarithmic.svg.png" />
     <link rel="stylesheet" href="main.css">
+    <script src="main.js"></script>
 </head>
+
 <body>
-  <div class="fib">
-    <div>
-      <div>
+  <div class="header">
+    <nav>
+      <div class="nav-wrapper deep-purple darken-3">
+        <a href="#" class="brand-logo">Fibinize It!</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="https://github.com/PfeifferH/fib">Github</a></li>
+          <li><a href="https://en.wikipedia.org/wiki/Golden_spiral">About Fibonacci Spirals</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <div class="content">
+    <div class="fib-container">
+      <div class="hidePurple"></div>
+      <div class="fib" id="fib">
         <div>
           <div>
             <div>
@@ -18,6 +38,10 @@
                         <div>
                           <div>
                             <div>
+                              <div>
+                                <div>
+                                </div>
+                              </div>
                             </div>
                           </div>
                         </div>
@@ -30,6 +54,17 @@
           </div>
         </div>
       </div>
+    </div>
+    <div class="inputForm">
+      <div class="card">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="https://www.sketchappsources.com/resources/source-image/golden-spiral-grid-template.jpg">
+          </div>
+          <div class="card-content">
+            <span class="card-title grey-text text-darken-4">Upload an image<i class="material-icons right"></i></span>
+            <p><input id="upload" type="file" accept="image/*" onchange="previewFile()">
+          </div>
+        </div>
     </div>
   </div>
 </body>
