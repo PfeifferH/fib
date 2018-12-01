@@ -1,6 +1,6 @@
-# fib
+# fibinize
 
-Fibonacci generator without using javascript
+Fibonacci generator using user-uploaded images. 
 
 ## References
 
